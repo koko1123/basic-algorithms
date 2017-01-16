@@ -24,5 +24,5 @@ def multiply(x, y):
 
 first_num = '3141592653589793238462643383279502884197169399375105820974944592'
 second_num = '3141592653589793238462643383279502884197169399375105820974944592'
-print(multiply(first_num, second_num))
+print(str(multiply(first_num, second_num)))
 print(int(first_num) * int(second_num))
