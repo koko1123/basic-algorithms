@@ -8,8 +8,8 @@ def merge_sort(arr):
     if len(arr) <= 1:
         return arr, 0
     half = int(len(arr)/2)
-    first_sorted_half, x = merge_sort(arr[:half])
-    second_sorted_half, y = merge_sort(arr[half:])
+    first_sorted_half = merge_sort(arr[:half])[0]
+    second_sorted_half = merge_sort(arr[half:])[0]
     merged_halves, z = merge(first_sorted_half, second_sorted_half)
 
     return merged_halves, z
