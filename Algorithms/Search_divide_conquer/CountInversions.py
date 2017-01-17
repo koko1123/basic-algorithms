@@ -43,7 +43,7 @@ def merge(first_half, second_half):
     return ans, split_inversions
 
 
-#input_file = open('Inversions.txt', 'r')
-#numbers = [int(x) for x in input_file.read().split()]
-numbers = [6, 5, 4, 3, 2, 1]
+input_file = open('Inversions.txt', 'r')
+numbers = [int(x) for x in input_file.read().split()]
+#numbers = [6, 5, 4, 3, 2, 1]
 print(merge_sort(numbers)[1])
