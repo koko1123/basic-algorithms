@@ -12,7 +12,7 @@ def merge_sort(arr):
     second_sorted_half, y = merge_sort(arr[half:])
     merged_halves, z = merge(first_sorted_half, second_sorted_half)
 
-    return merged_halves, x + y + z
+    return merged_halves, z
 
 
 def merge(first_half, second_half):
@@ -43,6 +43,7 @@ def merge(first_half, second_half):
     return ans, split_inversions
 
 
-input_file = open('Inversions.txt', 'r')
-numbers = [int(x) for x in input_file.read().split()]
+#input_file = open('Inversions.txt', 'r')
+#numbers = [int(x) for x in input_file.read().split()]
+numbers = [6, 5, 4, 3, 2, 1]
 print(merge_sort(numbers)[1])
