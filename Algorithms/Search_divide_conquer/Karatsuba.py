@@ -22,7 +22,5 @@ def multiply(x, y):
     gauss_trick = step_three - step_two - step_one
     return math.pow(10, len(x)) * step_one + math.pow(10, middle_of_x) * gauss_trick + step_two
 
-first_num = '3141592653589793238462643383279502884197169399375105820974944592'
-second_num = '3141592653589793238462643383279502884197169399375105820974944592'
-print(str(multiply(first_num, second_num)))
-print(int(first_num) * int(second_num))
+#first_num = '3141592653589793238462643383279502884197169399375105820974944592'
+#second_num = '3141592653589793238462643383279502884197169399375105820974944592'

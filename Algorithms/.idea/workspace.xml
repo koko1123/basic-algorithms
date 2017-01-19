@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CountInversions.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Search_divide_conquer/CountInversions.py">
+      <file leaf-file-name="QuickSort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Search_divide_conquer/QuickSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -44,6 +44,8 @@
         <option value="$PROJECT_DIR$/Search_divide_conquer/MergeSort.py" />
         <option value="$PROJECT_DIR$/LearningPython.py" />
         <option value="$PROJECT_DIR$/Search_divide_conquer/CountInversions.py" />
+        <option value="$PROJECT_DIR$/Search_divide_conquer/Karatsuba.py" />
+        <option value="$PROJECT_DIR$/Search_divide_conquer/QuickSort.py" />
       </list>
     </option>
   </component>
@@ -122,7 +124,7 @@
       <recent name="$PROJECT_DIR$/Search_divide_conquer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CountInversions">
+  <component name="RunManager" selected="Python.QuickSort">
     <configuration default="false" name="Karatsuba" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,6 +172,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Algorithms" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_divide_conquer/CountInversions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="QuickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search_divide_conquer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Algorithms" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_divide_conquer/QuickSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -308,16 +327,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.Karatsuba" />
       <item index="1" class="java.lang.String" itemvalue="Python.MergeSort" />
       <item index="2" class="java.lang.String" itemvalue="Python.CountInversions" />
+      <item index="3" class="java.lang.String" itemvalue="Python.QuickSort" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.CountInversions" />
-        <item index="1" class="java.lang.String" itemvalue="Python.MergeSort" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Karatsuba" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.QuickSort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Karatsuba" />
+        <item index="2" class="java.lang.String" itemvalue="Python.CountInversions" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -373,14 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Search_divide_conquer/Karatsuba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graph_problems/TopologicalSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -413,14 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Search_divide_conquer/MergeSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graph_problems/BFS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -431,8 +436,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Search_divide_conquer/CountInversions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="379">
           <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search_divide_conquer/Karatsuba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search_divide_conquer/MergeSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search_divide_conquer/QuickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding />
         </state>
       </provider>
