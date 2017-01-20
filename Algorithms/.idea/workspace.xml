@@ -15,31 +15,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuickSort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Search_divide_conquer/QuickSort.py">
+      <file leaf-file-name="Karatsuba.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Search_divide_conquer/Divide_and_conquer/Karatsuba.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumComparisonsQuickSort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Search_divide_conquer/NumComparisonsQuickSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CountInversions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Search_divide_conquer/CountInversions.py">
+        <entry file="file://$PROJECT_DIR$/Search_divide_conquer/Merge_Sort/CountInversions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="210">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomizedSelection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Search_divide_conquer/Quick_Sort/RandomizedSelection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,6 +67,7 @@
         <option value="$PROJECT_DIR$/Search_divide_conquer/Karatsuba.py" />
         <option value="$PROJECT_DIR$/Search_divide_conquer/QuickSort.py" />
         <option value="$PROJECT_DIR$/Search_divide_conquer/NumComparisonsQuickSort.py" />
+        <option value="$PROJECT_DIR$/Search_divide_conquer/Quick_Sort/RandomizedSelection.py" />
       </list>
     </option>
   </component>
@@ -105,14 +106,8 @@
               <option name="myItemId" value="Search_divide_conquer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
+              <option name="myItemId" value="Quick_Sort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -126,7 +121,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Graph_problems" />
+              <option name="myItemId" value="Search_divide_conquer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Merge_Sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Search_divide_conquer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Divide_and_conquer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -145,7 +172,7 @@
       <recent name="$PROJECT_DIR$/Search_divide_conquer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NumComparisonsQuickSort">
+  <component name="RunManager" selected="Python.CountInversions (1)">
     <configuration default="false" name="Karatsuba" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,40 +186,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Algorithms" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_divide_conquer/Karatsuba.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search_divide_conquer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Algorithms" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_divide_conquer/MergeSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CountInversions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search_divide_conquer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Algorithms" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_divide_conquer/CountInversions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -227,6 +220,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Algorithms" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_divide_conquer/NumComparisonsQuickSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Karatsuba (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search_divide_conquer/Divide_and_conquer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Algorithms" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_divide_conquer/Divide_and_conquer/Karatsuba.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CountInversions (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search_divide_conquer/Merge_Sort" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Algorithms" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_divide_conquer/Merge_Sort/CountInversions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -367,18 +394,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Karatsuba" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MergeSort" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CountInversions" />
-      <item index="3" class="java.lang.String" itemvalue="Python.QuickSort" />
-      <item index="4" class="java.lang.String" itemvalue="Python.NumComparisonsQuickSort" />
+      <item index="1" class="java.lang.String" itemvalue="Python.QuickSort" />
+      <item index="2" class="java.lang.String" itemvalue="Python.NumComparisonsQuickSort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Karatsuba (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.CountInversions (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.NumComparisonsQuickSort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.QuickSort" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Karatsuba" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CountInversions" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MergeSort" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CountInversions (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Karatsuba (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.NumComparisonsQuickSort" />
+        <item index="3" class="java.lang.String" itemvalue="Python.QuickSort" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Karatsuba" />
       </list>
     </recent_temporary>
   </component>
@@ -490,14 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Search_divide_conquer/QuickSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Search_divide_conquer/CountInversions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -510,6 +529,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search_divide_conquer/QuickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search_divide_conquer/Divide_and_conquer/Karatsuba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search_divide_conquer/Merge_Sort/CountInversions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search_divide_conquer/Quick_Sort/RandomizedSelection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
