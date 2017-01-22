@@ -35,4 +35,8 @@ def read_graph():
     return adjacency_graph
 
 
-print(karger_algorithm(read_graph()))
+graph = read_graph()
+min_cut = karger_algorithm(copy.deepcopy(graph))
+for _ in range(100):
+    min_cut = min(karger_algorithm(copy.deepcopy(graph)), min_cut)
+print(min_cut)
