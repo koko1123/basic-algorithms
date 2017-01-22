@@ -18,9 +18,11 @@
       <file leaf-file-name="MinCut.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graph_problems/Cuts/MinCut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="439">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,24 +120,7 @@
       <recent name="$PROJECT_DIR$/Search_divide_conquer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RandomizedSelection">
-    <configuration default="false" name="NumComparisonsQuickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search_divide_conquer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Algorithms" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_divide_conquer/NumComparisonsQuickSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.MinCut">
     <configuration default="false" name="Karatsuba (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,6 +185,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Algorithms" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search_divide_conquer/Quick_Sort/RandomizedSelection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MinCut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph_problems/Cuts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Algorithms" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph_problems/Cuts/MinCut.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -339,19 +341,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.NumComparisonsQuickSort" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Karatsuba (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CountInversions (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.NumComparisonsQuickSort (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.RandomizedSelection" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Karatsuba (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.CountInversions (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.NumComparisonsQuickSort (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.RandomizedSelection" />
+      <item index="4" class="java.lang.String" itemvalue="Python.MinCut" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.RandomizedSelection" />
-        <item index="1" class="java.lang.String" itemvalue="Python.NumComparisonsQuickSort (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.CountInversions (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Karatsuba (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.NumComparisonsQuickSort" />
+        <item index="0" class="java.lang.String" itemvalue="Python.MinCut" />
+        <item index="1" class="java.lang.String" itemvalue="Python.RandomizedSelection" />
+        <item index="2" class="java.lang.String" itemvalue="Python.NumComparisonsQuickSort (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.CountInversions (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Karatsuba (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -521,9 +523,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph_problems/Cuts/MinCut.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="439">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
