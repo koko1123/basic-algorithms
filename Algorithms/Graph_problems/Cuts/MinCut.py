@@ -7,7 +7,7 @@ Implementation of Karger's MinCut Algorithm
 
 def karger_algorithm(adjacency_list):
     while len(adjacency_list) > 2:
-        random_u = random.choice(adjacency_list.keys())
+        random_u = random.choice(list(adjacency_list.keys()))
         random_v = random.choice(adjacency_list[random_u])
         contraction(random_u, random_v, adjacency_list)
 
@@ -15,14 +15,14 @@ def karger_algorithm(adjacency_list):
 
 
 def contraction(u, v, adjacency_list):
-    for adjacent_node in u:
+    for adjacent_node in adjacency_list[u]:
         if adjacent_node != v:
             adjacency_list[v].append(adjacent_node)
             adjacency_list[adjacent_node].append(v)
 
-        adjacency_list[adjacency_node].remove(u)
+        adjacency_list[adjacent_node].remove(u)
 
-    adjacency_list.remove(u)
+    del adjacency_list[u]
 
 
 def read_graph():
@@ -35,6 +35,4 @@ def read_graph():
     return adjacency_graph
 
 
-graph = read_graph()
-print(graph)
-
+print(karger_algorithm(read_graph()))
