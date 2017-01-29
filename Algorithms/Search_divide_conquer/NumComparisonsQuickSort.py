@@ -37,4 +37,3 @@ def partition(arr, start, end):
 input_file = open('quicksortInput.txt', 'r')
 unsorted_array = [int(x) for x in input_file.read().split()]
 quick_sort(unsorted_array)
-print(unsorted_array)

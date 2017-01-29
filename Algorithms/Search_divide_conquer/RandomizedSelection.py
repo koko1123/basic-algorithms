@@ -18,9 +18,9 @@ def quick_sort_helper(arr, start, end, n):
         print(arr[n])
         return
     elif p > n + 1:
-        quick_sort_helper(arr, start, p - 1, n)
+        quick_sort_helper(arr, start, p, n)
     else:
-        quick_sort_helper(arr, p + 1, end, n)
+        quick_sort_helper(arr, p, end, n)
 
 
 def partition(arr, start, end):
