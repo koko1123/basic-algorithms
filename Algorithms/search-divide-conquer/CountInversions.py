@@ -7,7 +7,7 @@ using mergeSort routine in this directory as the skeleton
 def merge_sort(arr):
     if len(arr) <= 1:
         return arr, 0
-    half = int(len(arr)/2)
+    half = int(len(arr) / 2)
     first_sorted_half = merge_sort(arr[:half])[0]
     second_sorted_half = merge_sort(arr[half:])[0]
     merged_halves, z = merge(first_sorted_half, second_sorted_half)
@@ -45,5 +45,5 @@ def merge(first_half, second_half):
 
 input_file = open('Inversions.txt', 'r')
 numbers = [int(x) for x in input_file.read().split()]
-#numbers = [6, 5, 4, 3, 2, 1]
+# numbers = [6, 5, 4, 3, 2, 1]
 print(merge_sort(numbers)[1])
