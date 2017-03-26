@@ -25,7 +25,6 @@ class Kosaraju:
         self.explored = set()
         # since nodes are labelled 1-n, 0 is a safe placeholder value
         self.source = 0
-        self.dump_file = open('dump.txt', 'w')
 
     def kosaraju_scc_algorithm(self):
         # run dfs loop on the reversed graph and determine the finishing time of each node
