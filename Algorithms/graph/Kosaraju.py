@@ -5,6 +5,7 @@ also the most space efficient way I've been able to come up with so far
 ydatb
 """
 
+
 # todo memory optimal implementation
 # naive implementation: use two separate representations of the graph (reversed and original)
 # issue is storing 2n nodes instead of n and 2n book-keeping
@@ -58,14 +59,14 @@ class Kosaraju:
                 self.depth_first_search_second_pass(node)
 
     # second pass DFS on original graph
-    def depth_first_search_second_pass(self, node, explored):
+    def depth_first_search_second_pass(self, node):
         self.explored.add(node)
         if self.source not in self.leader_nodes:
             self.leader_nodes[self.source] = []
         self.leader_nodes[self.source].append(node)
         for adjacent_node in self.graph[node]:
             if adjacent_node not in self.explored:
-                self.depth_first_search_second_pass(adjacent_node, explored)
+                self.depth_first_search_second_pass(adjacent_node)
 
     def input_routine(self):
         # input routine
@@ -95,4 +96,3 @@ class Kosaraju:
         for key in self.leader_nodes:
             self.ssc_count.append(len(self.leader_nodes[key]))
         self.ssc_count.sort(key=lambda x: -x)
-
