@@ -1,5 +1,5 @@
 """
-implements the median maintainence algorithm for a "stream" of numbers
+implements the median maintenance algorithm for a "stream" of numbers
 """
 import heapq
 # store the smaller half
