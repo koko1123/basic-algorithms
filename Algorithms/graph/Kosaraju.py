@@ -1,17 +1,7 @@
 """
 Implements Kosaraju's algorithm for finding SCCs on a directed graph
 put into an object due to many global variables required for the algorithm
-also the most space efficient way I've been able to come up with so far
-ydatb
 """
-import sys
-
-# todo memory optimal implementation
-# naive implementation: use two separate representations of the graph (reversed and original)
-# issue is storing 2n nodes instead of n and 2n book-keeping
-# still blazing fast at O(m+n)
-# yes, I know this is dangerous
-sys.setrecursionlimit(1000000)
 
 
 class Kosaraju:
@@ -19,7 +9,7 @@ class Kosaraju:
         self.ssc_count = list()
         self.finishing_times = dict()
         self.finishing_time = 0
-        self.graph = dict()
+        self.graph = scipy.sparse.lil_matrix()
         self.graph_reversed = dict()
         self.leader_nodes = dict()
         self.explored = set()
