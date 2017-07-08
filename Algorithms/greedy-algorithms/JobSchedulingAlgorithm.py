@@ -5,16 +5,7 @@ prioritization includes a (weight - length) implementation and a (weight/length)
 
 
 def create_difference_schedule(jobs):
-    return jobs.sort(cmp=diff_comparator)
-
-
-# I know using a cmp is slow, but can't find a better way to ensure the tie breaker (higher weight first)
-def diff_comparator(x, y):
-    x_diff = x[0] - x[1]
-    y_diff = y[0] - y[1]
-    if x_diff == y_diff:
-        return y[0] - x[0]
-    return x_diff - y_diff
+    return jobs.sorted(key=lambda x: (x[0] - x[1], -x[0]))
 
 
 def create_ratio_schedule(jobs):
