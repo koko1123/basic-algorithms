@@ -5,7 +5,7 @@ prioritization includes a (weight - length) implementation and a (weight/length)
 
 
 def create_difference_schedule(jobs):
-    return jobs.sorted(key=lambda x: (x[0] - x[1], -x[0]))
+    return sorted(jobs, key=lambda x: (x[0] - x[1], -x[0]))
 
 
 def create_ratio_schedule(jobs):
